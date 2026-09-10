@@ -1,24 +1,75 @@
 # kakoune
 
+[中文版本](./README.cn.md)
+
 mawww's experiment for a better code editor
 
-- **Upstream**: <https://github.com/mawww/kakoune>
-- **Homepage**: <http://kakoune.org>
-- **Latest release**: `v2026.05.21` (2026-05-21)
-- **Last commit**: 2026-09-06
-- **License**: Unlicense
-- **Stars**: 11048 · **Forks**: 781 · **Open issues**: 2944 · **Contributors**: 371
+![kakoune](https://repo.x-cmd.io/kakoune.svg)
 
-## Installation
+## Install
 
 ```sh
 x install kakoune
 ```
 
-See <https://x-cmd.com/install/kakoune> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/mawww/kakoune>
+- **Homepage**: <http://kakoune.org>
+- **License**: Unlicense
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T20:33:36Z._
+- **Latest**: `v2026.05.21` (2026-05-21)
+- **Last commit**: 2026-09-06
+- **Assets in release**: 2
+- **Published**: 2026-05-21T01:32:00Z
+
+## Popularity
+
+- **Stars**: 11,048 · **Forks**: 781 · **Open issues**: 2,944 · **Contributors**: 371
+
+## Totals (cumulative)
+
+- **Releases**: 21 · **Merged PRs**: 1982 · **Open PRs**: 163 · **Closed issues**: 2190 · **Open issues**: 754 · **Commits**: 11121
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 10 | 2 | 1 | 3 | 26 |
+| 90d | 2026-06-12 | 0 | 16 | 9 | 2 | 5 | 59 |
+| 360d | 2025-09-15 | 2 | 65 | 28 | 36 | 24 | 243 |
+
+## Code size
+
+Total: **55,459** lines of code across **367** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Cpp | 24,484 | 198 | 3,075 | 58 |
+| KakouneScript | 16,033 | 2,492 | 2,716 | 192 |
+| CppHeader | 8,786 | 182 | 2,163 | 86 |
+| AsciiDoc | 4,765 | 0 | 1,781 | 29 |
+| Python | 388 | 52 | 106 | 2 |
+
+## OpenSSF Scorecard
+
+Overall score: **4.3 / 10**
+
+Lowest-scoring checks:
+
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+
+## Improve this data
+
+Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `kakoune` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/kakoune.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T05:55:55Z._
