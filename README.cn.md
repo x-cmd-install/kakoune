@@ -12,7 +12,7 @@ mawww's experiment for a better code editor
 x install kakoune
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **55,459** 行代码（覆盖前 5 种语言、共 **367** 个文件）。
 
@@ -48,7 +48,7 @@ x install kakoune
 
 ## 流行度
 
-- **Star**: 11,048 · **Fork**: 781 · **开放 issue**: 2,945 · **贡献者**: 371
+- **Star**: 11,047 · **Fork**: 781 · **开放 issue**: 2,945 · **贡献者**: 371
 
 ## 累计统计
 
@@ -100,4 +100,4 @@ kakoune 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T21:22:35Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T22:28:56Z._
