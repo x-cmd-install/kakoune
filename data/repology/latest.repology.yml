@@ -1,5 +1,16 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: parabola
+  subrepo: extra
+  srcname: kakoune
+  binname: kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  summary: Multiple-selection, UNIX-flavored modal editor
+  licenses:
+    - custom:unlicense
+- repo: pardus_21
+  subrepo: main
   srcname: kakoune
   binnames:
     - kakoune
@@ -11,34 +22,8 @@
     - roam@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  maintainers:
-    - gfaerny@gmail.com
-  categories:
-    - misc
-- repo: alpine_3_21
-  subrepo: community
-  srcname: kakoune
-  binname: kakoune-doc
-  visiblename: kakoune-doc
-  version: 2024.05.18
-  origversion: 2024.05.18-r0
-  status: outdated
-  summary: Code editor heavily inspired by Vim, but with less keystrokes (documentation)
-  maintainers:
-    - contact@willowbarraco.fr
-  licenses:
-    - Unlicense
-- repo: deepin_25
-  subrepo: community
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: kakoune
   binnames:
     - kakoune
@@ -49,7 +34,49 @@
   maintainers:
     - roam@debian.org
   categories:
-    - editors
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: 2024.05.18-2
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - misc
+- repo: wikidata
+  srcname: Q28974962
+  visiblename: Kakoune
+  version: 2025.06.03
+  origversion: null
+  status: outdated
+  summary: selection-oriented modal code editor inspired by Vim
+  licenses:
+    - Unlicense
+- repo: kiss_community
+  subrepo: community
+  srcname: kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: null
+  status: newest
+  maintainers:
+    - dery@posteo.net
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: kakoune
+  binname: kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  summary: Multiple-selection, UNIX-flavored modal editor
+  licenses:
+    - custom:unlicense
 - repo: aerynos
   srcname: kakoune
   visiblename: kakoune
@@ -176,17 +203,19 @@
     - contact@willowbarraco.fr
   licenses:
     - Unlicense
-- repo: nix_stable_25_11
-  srcname: kakoune-unwrapped
-  visiblename: kakoune-unwrapped
-  version: 2025.06.03
-  origversion: null
+- repo: alpine_3_21
+  subrepo: community
+  srcname: kakoune
+  binname: kakoune-doc
+  visiblename: kakoune-doc
+  version: 2024.05.18
+  origversion: 2024.05.18-r0
   status: outdated
-  summary: Vim inspired text editor
+  summary: Code editor heavily inspired by Vim, but with less keystrokes (documentation)
   maintainers:
-    - philip.taron@gmail.com
+    - contact@willowbarraco.fr
   licenses:
-    - Public Domain
+    - Unlicense
 - repo: alpine_3_22
   subrepo: community
   srcname: kakoune
@@ -318,19 +347,6 @@
   summary: Multiple-selection, UNIX-flavored modal editor
   licenses:
     - custom:unlicense
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: 2024.05.18-2
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - editors
 - repo: aur
   srcname: kakoune-git
   binname: kakoune-git
@@ -398,6 +414,17 @@
     - roam@debian.org
   categories:
     - misc
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: kakoune
+  binname: kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  summary: Multiple-selection, UNIX-flavored modal editor
+  licenses:
+    - custom:unlicense
 - repo: debian_12
   subrepo: bookworm/main
   srcname: kakoune
@@ -461,6 +488,45 @@
   status: outdated
   maintainers:
     - roam@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: 2024.05.18-2
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - editors
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2020.01.16
+  origversion: 2020.01.16-3
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  maintainers:
+    - gfaerny@gmail.com
+  categories:
+    - misc
 - repo: epel_8
   srcname: kakoune
   visiblename: kakoune
@@ -472,32 +538,6 @@
     - Unlicense
   categories:
     - Unspecified
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2022.10.31
-  origversion: 2022.10.31-1
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: 2024.05.18-2
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - misc
 - repo: epel_9
   srcname: kakoune
   binnames:
@@ -538,6 +578,22 @@
   categories:
     - app-editors
 - repo: fedora_39
+  subrepo: release
+  srcname: kakoune
+  binnames:
+    - kakoune
+    - kakoune-debuginfo
+    - kakoune-debugsource
+  visiblename: kakoune
+  version: 2023.07.29
+  origversion: 2023.07.29-1.fc39
+  status: legacy
+  summary: Code editor heavily inspired by Vim
+  licenses:
+    - Unlicense
+  categories:
+    - Unspecified
+- repo: fedora_39
   subrepo: updates
   srcname: kakoune
   binnames:
@@ -553,7 +609,18 @@
     - Unlicense
   categories:
     - Unspecified
-- repo: fedora_39
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: kakoune
+  binname: kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  summary: Multiple-selection, UNIX-flavored modal editor
+  licenses:
+    - custom:unlicense
+- repo: fedora_40
   subrepo: release
   srcname: kakoune
   binnames:
@@ -561,8 +628,8 @@
     - kakoune-debuginfo
     - kakoune-debugsource
   visiblename: kakoune
-  version: 2023.07.29
-  origversion: 2023.07.29-1.fc39
+  version: 2023.08.05
+  origversion: 2023.08.05-3.fc40
   status: legacy
   summary: Code editor heavily inspired by Vim
   licenses:
@@ -580,22 +647,6 @@
   version: 2024.05.18
   origversion: 2024.05.18-1.fc40
   status: outdated
-  summary: Code editor heavily inspired by Vim
-  licenses:
-    - Unlicense
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: kakoune
-  binnames:
-    - kakoune
-    - kakoune-debuginfo
-    - kakoune-debugsource
-  visiblename: kakoune
-  version: 2023.08.05
-  origversion: 2023.08.05-3.fc40
-  status: legacy
   summary: Code editor heavily inspired by Vim
   licenses:
     - Unlicense
@@ -630,6 +681,20 @@
   categories:
     - Unspecified
 - repo: fedora_42
+  subrepo: updates
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2025.06.03
+  origversion: 2025.06.03-0.fc42
+  status: outdated
+  summary: Code editor heavily inspired by Vim
+  licenses:
+    - Unlicense
+  categories:
+    - Unspecified
+- repo: fedora_42
   subrepo: release
   srcname: kakoune
   binnames:
@@ -643,15 +708,15 @@
     - Unlicense
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: kakoune
   binnames:
     - kakoune
   visiblename: kakoune
   version: 2025.06.03
-  origversion: 2025.06.03-0.fc42
-  status: outdated
+  origversion: 2025.06.03-1.fc43
+  status: legacy
   summary: Code editor heavily inspired by Vim
   licenses:
     - Unlicense
@@ -667,33 +732,6 @@
   origversion: 2026.04.12-1.fc43
   status: outdated
   summary: mawww's experiment for a better code editor
-  licenses:
-    - Unlicense
-  categories:
-    - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  maintainers:
-    - gfaerny@gmail.com
-  categories:
-    - misc
-- repo: fedora_43
-  subrepo: release
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2025.06.03
-  origversion: 2025.06.03-1.fc43
-  status: legacy
-  summary: Code editor heavily inspired by Vim
   licenses:
     - Unlicense
   categories:
@@ -822,19 +860,6 @@
     - Unlicense
   categories:
     - app-editors
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2019.07.01
-  origversion: 2019.07.01-1build1
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - universe/misc
 - repo: gentoo
   srcname: app-editors/kakoune
   visiblename: app-editors/kakoune
@@ -895,21 +920,12 @@
     - kakoune
   visiblename: kakoune
   version: 2026.05.21
-  origversion: 2026.05.21-1
+  origversion: 2026.05.21-2
   status: newest
   maintainers:
-    - roam@debian.org
+    - gfaerny@gmail.com
   categories:
     - misc
-- repo: kiss_community
-  subrepo: community
-  srcname: kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: null
-  status: newest
-  maintainers:
-    - dery@posteo.net
 - repo: liguros_stable
   srcname: app-editors/kakoune
   visiblename: app-editors/kakoune
@@ -1050,39 +1066,6 @@
     - public-domain
   categories:
     - editors
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: kakoune
-  binname: kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  summary: Multiple-selection, UNIX-flavored modal editor
-  licenses:
-    - custom:unlicense
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: kakoune
-  binname: kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  summary: Multiple-selection, UNIX-flavored modal editor
-  licenses:
-    - custom:unlicense
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: kakoune
-  binname: kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  summary: Multiple-selection, UNIX-flavored modal editor
-  licenses:
-    - custom:unlicense
 - repo: nix_stable_24_05
   srcname: kakoune
   visiblename: kakoune
@@ -1152,6 +1135,17 @@
 - repo: nix_stable_25_11
   srcname: kakoune
   visiblename: kakoune
+  version: 2025.06.03
+  origversion: null
+  status: outdated
+  summary: Vim inspired text editor
+  maintainers:
+    - philip.taron@gmail.com
+  licenses:
+    - Public Domain
+- repo: nix_stable_25_11
+  srcname: kakoune-unwrapped
+  visiblename: kakoune-unwrapped
   version: 2025.06.03
   origversion: null
   status: outdated
@@ -1253,56 +1247,6 @@
   origversion: 2026.05.21-1
   status: newest
   summary: mawww's experiment for a better code editor
-- repo: parabola
-  subrepo: extra
-  srcname: kakoune
-  binname: kakoune
-  visiblename: kakoune
-  version: 2026.05.21
-  origversion: 2026.05.21-2
-  status: newest
-  summary: Multiple-selection, UNIX-flavored modal editor
-  licenses:
-    - custom:unlicense
-- repo: pardus_21
-  subrepo: main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2020.01.16
-  origversion: 2020.01.16-3
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: 2024.05.18-2
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: 2024.05.18-2
-  status: outdated
-  maintainers:
-    - roam@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_1
   srcname: editors/kakoune
   binname: kakoune
@@ -1365,6 +1309,58 @@
     - roam@debian.org
   categories:
     - editors
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: 2024.05.18-2
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - editors
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2022.10.31
+  origversion: 2022.10.31-1
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: 2024.05.18-2
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2026.05.21
+  origversion: 2026.05.21-2
+  status: newest
+  maintainers:
+    - gfaerny@gmail.com
+  categories:
+    - misc
 - repo: ravenports
   srcname: kakoune
   binname: kakoune
@@ -1521,6 +1517,19 @@
     - roam@ringlet.net
   categories:
     - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2019.07.01
+  origversion: 2019.07.01-1build1
+  status: outdated
+  maintainers:
+    - roam@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: kakoune
@@ -1610,14 +1619,5 @@
   summary: Selection-based vim-like editor with less keystrokes
   maintainers:
     - orphan@voidlinux.org
-  licenses:
-    - Unlicense
-- repo: wikidata
-  srcname: Q28974962
-  visiblename: Kakoune
-  version: 2025.06.03
-  origversion: null
-  status: outdated
-  summary: selection-oriented modal code editor inspired by Vim
   licenses:
     - Unlicense

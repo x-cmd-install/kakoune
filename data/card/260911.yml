@@ -7,7 +7,7 @@ about:
   latestVersion: "v2026.05.21"
   latestRelease: "v2026.05.21"
   latestPrerelease: "v20180409"
-  collectedAt: 2026-09-11T06:02:20Z
+  collectedAt: 2026-09-11T18:54:59Z
 timeline:
   created: 2011-11-03
   lastCommit: 2026-09-06
@@ -21,7 +21,7 @@ popularity:
   release: 21
   contributor: 371
   pullRequest: 2588
-  issue: 2945
+  issue: 2946
 language:
   C++: 1293282
   KakouneScript: 940872
@@ -39,7 +39,7 @@ recent:
     mergedPR: 9
     openPR: 2
     closedIssue: 1
-    openIssue: 3
+    openIssue: 4
     commit: 26
   last60d:
     since: 2026-07-13
@@ -47,7 +47,7 @@ recent:
     mergedPR: 15
     openPR: 5
     closedIssue: 2
-    openIssue: 4
+    openIssue: 5
     commit: 51
   last90d:
     since: 2026-06-13
@@ -55,7 +55,7 @@ recent:
     mergedPR: 16
     openPR: 7
     closedIssue: 2
-    openIssue: 6
+    openIssue: 7
     commit: 59
   last180d:
     since: 2026-03-15
@@ -63,7 +63,7 @@ recent:
     mergedPR: 43
     openPR: 15
     closedIssue: 15
-    openIssue: 12
+    openIssue: 13
     commit: 139
   last360d:
     since: 2025-09-16
@@ -71,7 +71,7 @@ recent:
     mergedPR: 65
     openPR: 27
     closedIssue: 36
-    openIssue: 25
+    openIssue: 26
     commit: 243
   last720d:
     since: 2024-09-21
@@ -79,18 +79,18 @@ recent:
     mergedPR: 113
     openPR: 36
     closedIssue: 83
-    openIssue: 63
+    openIssue: 64
     commit: 516
 total:
   release: 21
   mergedPR: 1982
   openPR: 163
   closedIssue: 2190
-  openIssue: 755
+  openIssue: 756
   commit: 11121
 ---
 path: /home/runner/.x-repo/github.com/mawww/kakoune
-collectedAt: 2026-09-11T06:02:29Z
+collectedAt: 2026-09-11T18:55:04Z
 loc:
   Cpp:
     code: 24484

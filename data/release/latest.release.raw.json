@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1609777,
       "digest": "sha256:4e1f7b2862dc583d081eb91881b6fbab04cbe87c6dda2c1f6c98712d740d986c",
-      "download_count": 876,
+      "download_count": 892,
       "created_at": "2026-05-21T01:33:56Z",
       "updated_at": "2026-05-21T01:33:57Z",
       "browser_download_url": "https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-v2026.05.21-linux.tar.bz2"
