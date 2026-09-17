@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,053 · **Forks**: 780 · **Open issues**: 2,946 · **Contributors**: 370
+- **Stars**: 11,054 · **Forks**: 779 · **Open issues**: 2,946 · **Contributors**: 370
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 7 | 2 | 1 | 4 | 21 |
-| last60d | 2026-07-18 | 0 | 13 | 3 | 2 | 5 | 47 |
-| 90d | 2026-06-18 | 0 | 15 | 7 | 2 | 7 | 55 |
-| last180d | 2026-03-20 | 2 | 42 | 15 | 14 | 13 | 129 |
-| 360d | 2025-09-21 | 2 | 63 | 27 | 36 | 26 | 242 |
-| last720d | 2024-09-26 | 3 | 112 | 36 | 82 | 64 | 517 |
+| 30d | 2026-08-18 | 0 | 7 | 2 | 1 | 4 | 21 |
+| last60d | 2026-07-19 | 0 | 13 | 3 | 2 | 5 | 47 |
+| 90d | 2026-06-19 | 0 | 15 | 7 | 2 | 7 | 55 |
+| last180d | 2026-03-21 | 2 | 41 | 15 | 13 | 13 | 129 |
+| 360d | 2025-09-22 | 2 | 63 | 26 | 36 | 26 | 242 |
+| last720d | 2024-09-27 | 3 | 112 | 36 | 82 | 64 | 517 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T06:17:11Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T06:20:03Z._
