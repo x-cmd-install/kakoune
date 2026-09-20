@@ -4,7 +4,7 @@
 
 mawww's experiment for a better code editor
 
-![kakoune](https://repo.x-cmd.io/kakoune.svg)
+[![x-cmd/install — kakoune Code Quality Monitoring Repo Card](https://repo.x-cmd.io/kakoune.svg)](https://x-cmd.com/install/kakoune)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,055 · **Forks**: 780 · **Open issues**: 2,947 · **Contributors**: 370
+- **Stars**: 11,058 · **Forks**: 781 · **Open issues**: 2,947 · **Contributors**: 370
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 1982 · **Open PRs**: 164 · **Closed issues**: 2190 · **Open issues**: 757 · **Commits**: 11124
+- **Releases**: 21 · **Merged PRs**: 1982 · **Open PRs**: 166 · **Closed issues**: 2191 · **Open issues**: 756 · **Commits**: 11124
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 6 | 3 | 1 | 5 | 21 |
-| last60d | 2026-07-20 | 0 | 13 | 4 | 2 | 6 | 47 |
-| 90d | 2026-06-20 | 0 | 15 | 8 | 2 | 8 | 55 |
-| last180d | 2026-03-22 | 2 | 41 | 16 | 13 | 14 | 129 |
-| 360d | 2025-09-23 | 2 | 63 | 27 | 36 | 27 | 242 |
-| last720d | 2024-09-28 | 3 | 112 | 37 | 82 | 65 | 517 |
+| 30d | 2026-08-21 | 0 | 6 | 5 | 0 | 5 | 14 |
+| last60d | 2026-07-22 | 0 | 13 | 6 | 2 | 6 | 44 |
+| 90d | 2026-06-22 | 0 | 15 | 10 | 2 | 8 | 55 |
+| last180d | 2026-03-24 | 2 | 41 | 18 | 13 | 14 | 125 |
+| 360d | 2025-09-25 | 2 | 63 | 29 | 35 | 26 | 242 |
+| last720d | 2024-09-30 | 3 | 111 | 39 | 82 | 65 | 515 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:19:36Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:12:39Z._
