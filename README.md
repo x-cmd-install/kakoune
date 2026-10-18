@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 8 | 6 | 1 | 6 | 22 |
-| last60d | 2026-08-18 | 0 | 15 | 7 | 3 | 9 | 49 |
-| 90d | 2026-07-19 | 0 | 21 | 8 | 4 | 10 | 76 |
-| last180d | 2026-04-20 | 1 | 44 | 19 | 12 | 16 | 140 |
-| 360d | 2025-10-22 | 2 | 68 | 27 | 33 | 27 | 254 |
-| last720d | 2024-10-27 | 3 | 117 | 41 | 78 | 67 | 529 |
+| 30d | 2026-09-18 | 0 | 6 | 6 | 1 | 5 | 16 |
+| last60d | 2026-08-19 | 0 | 14 | 7 | 3 | 9 | 39 |
+| 90d | 2026-07-20 | 0 | 21 | 8 | 4 | 10 | 71 |
+| last180d | 2026-04-21 | 1 | 43 | 19 | 11 | 16 | 136 |
+| 360d | 2025-10-23 | 2 | 68 | 27 | 33 | 26 | 254 |
+| last720d | 2024-10-28 | 3 | 117 | 41 | 78 | 67 | 529 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T05:21:51Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T05:23:59Z._
