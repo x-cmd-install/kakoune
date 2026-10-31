@@ -14,12 +14,12 @@ x install kakoune
 
 ## Code insight
 
-Total: **55,573** lines of code across **368** files in the top 5 languages.
+Total: **55,570** lines of code across **368** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Cpp | 24,492 | 198 | 3,075 | 58 |
-| KakouneScript | 16,135 | 2,506 | 2,730 | 193 |
+| KakouneScript | 16,133 | 2,505 | 2,729 | 193 |
 | CppHeader | 8,783 | 182 | 2,161 | 86 |
 | AsciiDoc | 4,772 | 0 | 1,784 | 29 |
 | Python | 388 | 52 | 106 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2026.05.21` (2026-05-21)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-30
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 11,123 · **Forks**: 788 · **Open issues**: 2,953 · **Contributors**: 373
+- **Stars**: 11,124 · **Forks**: 788 · **Open issues**: 2,953 · **Contributors**: 373
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 1990 · **Open PRs**: 170 · **Closed issues**: 2192 · **Open issues**: 761 · **Commits**: 11149
+- **Releases**: 21 · **Merged PRs**: 1994 · **Open PRs**: 166 · **Closed issues**: 2192 · **Open issues**: 761 · **Commits**: 11162
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 2 | 8 | 0 | 4 | 10 |
-| last60d | 2026-08-31 | 0 | 8 | 9 | 2 | 9 | 32 |
-| 90d | 2026-08-01 | 0 | 20 | 9 | 4 | 11 | 69 |
-| last180d | 2026-05-03 | 1 | 40 | 19 | 9 | 15 | 128 |
-| 360d | 2025-11-04 | 2 | 68 | 29 | 33 | 27 | 253 |
-| last720d | 2024-11-09 | 3 | 117 | 43 | 77 | 68 | 523 |
+| 30d | 2026-10-01 | 0 | 4 | 4 | 0 | 4 | 21 |
+| last60d | 2026-09-01 | 0 | 12 | 5 | 2 | 9 | 43 |
+| 90d | 2026-08-02 | 0 | 24 | 5 | 4 | 11 | 80 |
+| last180d | 2026-05-04 | 1 | 44 | 15 | 9 | 15 | 139 |
+| 360d | 2025-11-05 | 2 | 72 | 25 | 33 | 27 | 264 |
+| last720d | 2024-11-10 | 3 | 121 | 39 | 77 | 68 | 536 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:50:46Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T06:48:14Z._
