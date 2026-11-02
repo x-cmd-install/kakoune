@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,126 · **Forks**: 788 · **Open issues**: 2,954 · **Contributors**: 373
+- **Stars**: 11,128 · **Forks**: 788 · **Open issues**: 2,954 · **Contributors**: 373
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 1994 · **Open PRs**: 166 · **Closed issues**: 2192 · **Open issues**: 762 · **Commits**: 11162
+- **Releases**: 21 · **Merged PRs**: 1994 · **Open PRs**: 166 · **Closed issues**: 2193 · **Open issues**: 761 · **Commits**: 11162
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 4 | 4 | 0 | 5 | 10 |
-| last60d | 2026-09-02 | 0 | 12 | 5 | 2 | 9 | 37 |
-| 90d | 2026-08-03 | 0 | 24 | 5 | 4 | 12 | 73 |
-| last180d | 2026-05-05 | 1 | 44 | 15 | 9 | 16 | 129 |
-| 360d | 2025-11-06 | 2 | 72 | 25 | 33 | 28 | 263 |
-| last720d | 2024-11-11 | 3 | 121 | 39 | 77 | 69 | 536 |
+| 30d | 2026-10-03 | 0 | 4 | 4 | 1 | 3 | 10 |
+| last60d | 2026-09-03 | 0 | 12 | 5 | 3 | 8 | 37 |
+| 90d | 2026-08-04 | 0 | 23 | 5 | 5 | 11 | 73 |
+| last180d | 2026-05-06 | 1 | 43 | 15 | 9 | 15 | 129 |
+| 360d | 2025-11-07 | 2 | 72 | 24 | 34 | 26 | 263 |
+| last720d | 2024-11-12 | 3 | 120 | 39 | 77 | 68 | 532 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **128** distros on [repology.org](https://repology.org/project/kakoune). **44** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
+Reported by **128** distros on [repology.org](https://repology.org/project/kakoune). **42** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:10:38Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:19:00Z._
