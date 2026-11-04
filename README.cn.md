@@ -26,12 +26,12 @@ x install kakoune
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.9 / 10**
+总评分: **4 / 10**
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -48,7 +48,7 @@ x install kakoune
 
 ## 流行度
 
-- **Star**: 11,128 · **Fork**: 788 · **开放 issue**: 2,954 · **贡献者**: 373
+- **Star**: 11,127 · **Fork**: 788 · **开放 issue**: 2,954 · **贡献者**: 373
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install kakoune
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 4 | 4 | 1 | 3 | 10 |
-| last60d | 2026-09-04 | 0 | 12 | 5 | 3 | 8 | 37 |
-| 90d | 2026-08-05 | 0 | 23 | 5 | 5 | 11 | 73 |
-| last180d | 2026-05-07 | 1 | 43 | 15 | 9 | 15 | 129 |
-| 360d | 2025-11-08 | 2 | 72 | 24 | 34 | 26 | 263 |
-| last720d | 2024-11-13 | 3 | 120 | 39 | 76 | 68 | 531 |
+| 30d | 2026-10-05 | 0 | 4 | 4 | 1 | 3 | 10 |
+| last60d | 2026-09-05 | 0 | 12 | 5 | 3 | 8 | 37 |
+| 90d | 2026-08-06 | 0 | 23 | 5 | 5 | 11 | 73 |
+| last180d | 2026-05-08 | 1 | 43 | 15 | 8 | 15 | 129 |
+| 360d | 2025-11-09 | 2 | 72 | 24 | 34 | 26 | 263 |
+| last720d | 2024-11-14 | 3 | 120 | 39 | 76 | 68 | 529 |
 
 ## Release 资产
 
@@ -100,4 +100,4 @@ kakoune 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T08:04:56Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T07:32:10Z._
