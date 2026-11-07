@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,129 · **Forks**: 786 · **Open issues**: 2,954 · **Contributors**: 373
+- **Stars**: 11,127 · **Forks**: 786 · **Open issues**: 2,954 · **Contributors**: 373
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 3 | 4 | 1 | 2 | 10 |
-| last60d | 2026-09-07 | 0 | 12 | 5 | 3 | 8 | 37 |
-| 90d | 2026-08-08 | 0 | 23 | 5 | 5 | 11 | 73 |
-| last180d | 2026-05-10 | 1 | 42 | 15 | 8 | 15 | 129 |
-| 360d | 2025-11-11 | 2 | 72 | 24 | 33 | 26 | 263 |
-| last720d | 2024-11-16 | 3 | 120 | 39 | 76 | 67 | 528 |
+| 30d | 2026-10-08 | 0 | 2 | 4 | 1 | 2 | 10 |
+| last60d | 2026-09-08 | 0 | 12 | 4 | 3 | 8 | 37 |
+| 90d | 2026-08-09 | 0 | 22 | 5 | 5 | 11 | 73 |
+| last180d | 2026-05-11 | 1 | 41 | 15 | 8 | 15 | 129 |
+| 360d | 2025-11-12 | 2 | 72 | 24 | 33 | 26 | 263 |
+| last720d | 2024-11-17 | 3 | 120 | 39 | 76 | 67 | 528 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **128** distros on [repology.org](https://repology.org/project/kakoune). **42** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+Reported by **128** distros on [repology.org](https://repology.org/project/kakoune). **45** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:49:11Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:01:42Z._
