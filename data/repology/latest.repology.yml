@@ -85,6 +85,17 @@
     - contact@willowbarraco.fr
   licenses:
     - Unlicense
+- repo: nix_stable_24_05
+  srcname: kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: null
+  status: outdated
+  summary: A vim inspired text editor
+  maintainers:
+    - rahul@gopinath.org
+  licenses:
+    - Public Domain
 - repo: alpine_3_20
   subrepo: community
   srcname: kakoune
@@ -565,6 +576,17 @@
     - Unlicense
   categories:
     - Unspecified
+- repo: nix_stable_24_11
+  srcname: kakoune
+  visiblename: kakoune
+  version: 2024.05.18
+  origversion: null
+  status: outdated
+  summary: Vim inspired text editor
+  maintainers:
+    - philip.taron@gmail.com
+  licenses:
+    - Public Domain
 - repo: fedora_41
   subrepo: updates
   srcname: kakoune
@@ -573,20 +595,6 @@
   visiblename: kakoune
   version: 2025.06.03
   origversion: 2025.06.03-0.fc41
-  status: outdated
-  summary: Code editor heavily inspired by Vim
-  licenses:
-    - Unlicense
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: updates
-  srcname: kakoune
-  binnames:
-    - kakoune
-  visiblename: kakoune
-  version: 2025.06.03
-  origversion: 2025.06.03-0.fc42
   status: outdated
   summary: Code editor heavily inspired by Vim
   licenses:
@@ -607,15 +615,15 @@
     - Unlicense
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: kakoune
   binnames:
     - kakoune
   visiblename: kakoune
   version: 2025.06.03
-  origversion: 2025.06.03-1.fc43
-  status: legacy
+  origversion: 2025.06.03-0.fc42
+  status: outdated
   summary: Code editor heavily inspired by Vim
   licenses:
     - Unlicense
@@ -631,6 +639,20 @@
   origversion: 2026.04.12-1.fc43
   status: outdated
   summary: mawww's experiment for a better code editor
+  licenses:
+    - Unlicense
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2025.06.03
+  origversion: 2025.06.03-1.fc43
+  status: legacy
+  summary: Code editor heavily inspired by Vim
   licenses:
     - Unlicense
   categories:
@@ -657,6 +679,20 @@
   visiblename: kakoune
   version: 2026.04.12
   origversion: 2026.04.12-1.fc44
+  status: outdated
+  summary: mawww's experiment for a better code editor
+  licenses:
+    - Unlicense
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: kakoune
+  binnames:
+    - kakoune
+  visiblename: kakoune
+  version: 2026.04.12
+  origversion: 2026.04.12-2.fc45
   status: outdated
   summary: mawww's experiment for a better code editor
   licenses:
@@ -703,6 +739,17 @@
     - Unlicense
   categories:
     - app-editors
+- repo: nix_stable_24_05
+  srcname: kakoune-unwrapped
+  visiblename: kakoune-unwrapped
+  version: 2024.05.18
+  origversion: null
+  status: outdated
+  summary: A vim inspired text editor
+  maintainers:
+    - rahul@gopinath.org
+  licenses:
+    - Public Domain
 - repo: gentoo
   srcname: app-editors/kakoune
   visiblename: app-editors/kakoune
@@ -1007,39 +1054,6 @@
   summary: Multiple-selection, UNIX-flavored modal editor
   licenses:
     - custom:unlicense
-- repo: nix_stable_24_05
-  srcname: kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: null
-  status: outdated
-  summary: A vim inspired text editor
-  maintainers:
-    - rahul@gopinath.org
-  licenses:
-    - Public Domain
-- repo: nix_stable_24_05
-  srcname: kakoune-unwrapped
-  visiblename: kakoune-unwrapped
-  version: 2024.05.18
-  origversion: null
-  status: outdated
-  summary: A vim inspired text editor
-  maintainers:
-    - rahul@gopinath.org
-  licenses:
-    - Public Domain
-- repo: nix_stable_24_11
-  srcname: kakoune
-  visiblename: kakoune
-  version: 2024.05.18
-  origversion: null
-  status: outdated
-  summary: Vim inspired text editor
-  maintainers:
-    - philip.taron@gmail.com
-  licenses:
-    - Public Domain
 - repo: nix_stable_24_11
   srcname: kakoune-unwrapped
   visiblename: kakoune-unwrapped
@@ -1095,17 +1109,6 @@
     - philip.taron@gmail.com
   licenses:
     - Public Domain
-- repo: stalix
-  srcname: bin/kakoune/unwrap
-  binname: bin/kakoune
-  visiblename: bin/kakoune
-  version: 2026.05.21
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: nix_stable_26_05
   srcname: kakoune-unwrapped
   visiblename: kakoune-unwrapped
@@ -1424,6 +1427,17 @@
     - taliaferro@spack
   licenses:
     - Unlicense
+- repo: stalix
+  srcname: bin/kakoune/unwrap
+  binname: bin/kakoune
+  visiblename: bin/kakoune
+  version: 2026.05.21
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: stalix_dev
   srcname: bin/kakoune/unwrap
   binname: bin/kakoune
