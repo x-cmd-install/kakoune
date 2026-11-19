@@ -48,7 +48,7 @@ x install kakoune
 
 ## 流行度
 
-- **Star**: 11,145 · **Fork**: 786 · **开放 issue**: 2,955 · **贡献者**: 373
+- **Star**: 11,150 · **Fork**: 786 · **开放 issue**: 2,955 · **贡献者**: 373
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install kakoune
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 1 | 2 | 1 | 2 | 8 |
-| last60d | 2026-09-18 | 0 | 10 | 5 | 2 | 7 | 29 |
-| 90d | 2026-08-19 | 0 | 18 | 6 | 4 | 11 | 55 |
-| last180d | 2026-05-21 | 1 | 37 | 16 | 7 | 16 | 113 |
-| 360d | 2025-11-22 | 2 | 72 | 25 | 32 | 26 | 256 |
-| last720d | 2024-11-27 | 3 | 120 | 40 | 75 | 68 | 526 |
+| 30d | 2026-10-20 | 0 | 1 | 2 | 1 | 2 | 8 |
+| last60d | 2026-09-20 | 0 | 9 | 5 | 2 | 7 | 29 |
+| 90d | 2026-08-21 | 0 | 18 | 6 | 3 | 11 | 55 |
+| last180d | 2026-05-23 | 0 | 36 | 16 | 7 | 16 | 113 |
+| 360d | 2025-11-24 | 2 | 71 | 25 | 32 | 26 | 256 |
+| last720d | 2024-11-29 | 3 | 120 | 40 | 75 | 68 | 521 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install kakoune
 |------|-----:|----------|
 | [kakoune-2026.05.21.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-2026.05.21.tar.bz2) | 624.8 KiB | `other` |
 | [kakoune-v2026.05.21-linux.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-v2026.05.21-linux.tar.bz2) | 1.5 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/kakoune) 上共有 **129** 个发行版报告此项目。**45** 个 ✅ 已是最新上游版本，**63** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2026.05.21` | ✅ latest |
+| Debian 14 | `2026.05.21` | ✅ latest |
+| Debian 13 | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2022.10.31` | ⚠️ outdated |
+| Arch | `2026.05.21` | ✅ latest |
+| Homebrew | `2026.05.21` | ✅ latest |
+| Fedora rawhide | `2026.04.12` | ⚠️ outdated |
+| Nix unstable | `2026.05.21` | ✅ latest |
+| Void | `2026.05.21` | ✅ latest |
+| Alpine edge | `2026.05.21` | ✅ latest |
+| openSUSE Tumbleweed | `2026.05.21` | ✅ latest |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ kakoune 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T10:53:51Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T08:38:32Z._
