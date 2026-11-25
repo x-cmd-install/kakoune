@@ -14,14 +14,14 @@ x install kakoune
 
 ## Code insight
 
-Total: **55,570** lines of code across **368** files in the top 5 languages.
+Total: **55,592** lines of code across **368** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 24,492 | 198 | 3,075 | 58 |
-| KakouneScript | 16,133 | 2,505 | 2,729 | 193 |
+| Cpp | 24,495 | 200 | 3,076 | 58 |
+| KakouneScript | 16,134 | 2,488 | 2,715 | 193 |
 | CppHeader | 8,783 | 182 | 2,161 | 86 |
-| AsciiDoc | 4,772 | 0 | 1,784 | 29 |
+| AsciiDoc | 4,790 | 0 | 1,790 | 29 |
 | Python | 388 | 52 | 106 | 2 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2026.05.21` (2026-05-21)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-11-25
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 11,157 · **Forks**: 787 · **Open issues**: 2,958 · **Contributors**: 373
+- **Stars**: 11,155 · **Forks**: 787 · **Open issues**: 2,958 · **Contributors**: 376
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 1994 · **Open PRs**: 165 · **Closed issues**: 2195 · **Open issues**: 763 · **Commits**: 11162
+- **Releases**: 21 · **Merged PRs**: 1999 · **Open PRs**: 161 · **Closed issues**: 2196 · **Open issues**: 762 · **Commits**: 11177
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 2 | 2 | 3 | 3 |
-| last60d | 2026-09-25 | 0 | 8 | 6 | 2 | 9 | 23 |
-| 90d | 2026-08-26 | 0 | 13 | 7 | 4 | 13 | 48 |
-| last180d | 2026-05-28 | 0 | 32 | 15 | 8 | 18 | 109 |
-| 360d | 2025-11-29 | 2 | 70 | 23 | 32 | 28 | 243 |
-| last720d | 2024-12-04 | 3 | 120 | 38 | 75 | 70 | 515 |
+| 30d | 2026-10-26 | 0 | 3 | 0 | 3 | 2 | 13 |
+| last60d | 2026-09-26 | 0 | 13 | 2 | 3 | 8 | 38 |
+| 90d | 2026-08-27 | 0 | 18 | 3 | 5 | 11 | 63 |
+| last180d | 2026-05-29 | 0 | 36 | 11 | 8 | 17 | 124 |
+| 360d | 2025-11-30 | 2 | 75 | 19 | 31 | 27 | 258 |
+| last720d | 2024-12-05 | 3 | 125 | 34 | 76 | 68 | 528 |
 
 ## Release assets
 
@@ -71,25 +71,6 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [kakoune-2026.05.21.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-2026.05.21.tar.bz2) | 624.8 KiB | `other` |
 | [kakoune-v2026.05.21-linux.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-v2026.05.21-linux.tar.bz2) | 1.5 MiB | `other` |
-
-## Distribution status
-
-Reported by **128** distros on [repology.org](https://repology.org/project/kakoune). **45** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2026.05.21` | ✅ latest |
-| Debian 14 | `2026.05.21` | ✅ latest |
-| Debian 13 | `2024.05.18` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2024.05.18` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2022.10.31` | ⚠️ outdated |
-| Arch | `2026.05.21` | ✅ latest |
-| Homebrew | `2026.05.21` | ✅ latest |
-| Fedora rawhide | `2026.04.12` | ⚠️ outdated |
-| Nix unstable | `2026.05.21` | ✅ latest |
-| Void | `2026.05.21` | ✅ latest |
-| Alpine edge | `2026.05.21` | ✅ latest |
-| openSUSE Tumbleweed | `2026.05.21` | ✅ latest |
 
 ## Improve this data
 
@@ -100,4 +81,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:03:38Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:22:25Z._
