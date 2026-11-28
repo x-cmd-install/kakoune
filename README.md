@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 11,160 · **Forks**: 788 · **Open issues**: 2,959 · **Contributors**: 376
+- **Stars**: 11,158 · **Forks**: 787 · **Open issues**: 2,960 · **Contributors**: 376
 
 ## Totals (cumulative)
 
-- **Releases**: 21 · **Merged PRs**: 1999 · **Open PRs**: 161 · **Closed issues**: 2195 · **Open issues**: 764 · **Commits**: 11177
+- **Releases**: 21 · **Merged PRs**: 1999 · **Open PRs**: 163 · **Closed issues**: 2195 · **Open issues**: 765 · **Commits**: 11177
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 3 | 0 | 3 | 4 | 13 |
-| last60d | 2026-09-28 | 0 | 12 | 2 | 3 | 9 | 38 |
-| 90d | 2026-08-29 | 0 | 18 | 3 | 5 | 13 | 63 |
-| last180d | 2026-05-31 | 0 | 36 | 11 | 8 | 19 | 124 |
-| 360d | 2025-12-02 | 2 | 75 | 19 | 30 | 29 | 258 |
-| last720d | 2024-12-07 | 3 | 125 | 34 | 75 | 70 | 526 |
+| 30d | 2026-10-29 | 0 | 3 | 2 | 3 | 5 | 13 |
+| last60d | 2026-09-29 | 0 | 11 | 4 | 3 | 9 | 38 |
+| 90d | 2026-08-30 | 0 | 18 | 5 | 5 | 14 | 63 |
+| last180d | 2026-06-01 | 0 | 36 | 13 | 8 | 20 | 124 |
+| 360d | 2025-12-03 | 2 | 75 | 21 | 30 | 30 | 258 |
+| last720d | 2024-12-08 | 3 | 125 | 36 | 75 | 71 | 526 |
 
 ## Release assets
 
@@ -71,6 +71,25 @@ Lowest-scoring checks:
 |-------|-----:|--------|
 | [kakoune-2026.05.21.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-2026.05.21.tar.bz2) | 624.8 KiB | `other` |
 | [kakoune-v2026.05.21-linux.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-v2026.05.21-linux.tar.bz2) | 1.5 MiB | `other` |
+
+## Distribution status
+
+Reported by **127** distros on [repology.org](https://repology.org/project/kakoune). **45** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2026.05.21` | ✅ latest |
+| Debian 14 | `2026.05.21` | ✅ latest |
+| Debian 13 | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2022.10.31` | ⚠️ outdated |
+| Arch | `2026.05.21` | ✅ latest |
+| Homebrew | `2026.05.21` | ✅ latest |
+| Fedora rawhide | `2026.04.12` | ⚠️ outdated |
+| Nix unstable | `2026.05.21` | ✅ latest |
+| Void | `2026.05.21` | ✅ latest |
+| Alpine edge | `2026.05.21` | ✅ latest |
+| openSUSE Tumbleweed | `2026.05.21` | ✅ latest |
 
 ## Improve this data
 
@@ -81,4 +100,4 @@ Install metadata for kakoune lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T10:30:29Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T09:26:10Z._

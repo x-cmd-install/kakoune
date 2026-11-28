@@ -48,22 +48,22 @@ x install kakoune
 
 ## 流行度
 
-- **Star**: 11,160 · **Fork**: 788 · **开放 issue**: 2,959 · **贡献者**: 376
+- **Star**: 11,158 · **Fork**: 787 · **开放 issue**: 2,960 · **贡献者**: 376
 
 ## 累计统计
 
-- **发布数**: 21 · **已合并 PR**: 1999 · **开放 PR**: 161 · **已关闭 issue**: 2195 · **开放 issue**: 764 · **提交数**: 11177
+- **发布数**: 21 · **已合并 PR**: 1999 · **开放 PR**: 163 · **已关闭 issue**: 2195 · **开放 issue**: 765 · **提交数**: 11177
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 3 | 0 | 3 | 4 | 13 |
-| last60d | 2026-09-28 | 0 | 12 | 2 | 3 | 9 | 38 |
-| 90d | 2026-08-29 | 0 | 18 | 3 | 5 | 13 | 63 |
-| last180d | 2026-05-31 | 0 | 36 | 11 | 8 | 19 | 124 |
-| 360d | 2025-12-02 | 2 | 75 | 19 | 30 | 29 | 258 |
-| last720d | 2024-12-07 | 3 | 125 | 34 | 75 | 70 | 526 |
+| 30d | 2026-10-29 | 0 | 3 | 2 | 3 | 5 | 13 |
+| last60d | 2026-09-29 | 0 | 11 | 4 | 3 | 9 | 38 |
+| 90d | 2026-08-30 | 0 | 18 | 5 | 5 | 14 | 63 |
+| last180d | 2026-06-01 | 0 | 36 | 13 | 8 | 20 | 124 |
+| 360d | 2025-12-03 | 2 | 75 | 21 | 30 | 30 | 258 |
+| last720d | 2024-12-08 | 3 | 125 | 36 | 75 | 71 | 526 |
 
 ## Release 资产
 
@@ -71,6 +71,25 @@ x install kakoune
 |------|-----:|----------|
 | [kakoune-2026.05.21.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-2026.05.21.tar.bz2) | 624.8 KiB | `other` |
 | [kakoune-v2026.05.21-linux.tar.bz2](https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-v2026.05.21-linux.tar.bz2) | 1.5 MiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/kakoune) 上共有 **127** 个发行版报告此项目。**45** 个 ✅ 已是最新上游版本，**61** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2026.05.21` | ✅ latest |
+| Debian 14 | `2026.05.21` | ✅ latest |
+| Debian 13 | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2024.05.18` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2022.10.31` | ⚠️ outdated |
+| Arch | `2026.05.21` | ✅ latest |
+| Homebrew | `2026.05.21` | ✅ latest |
+| Fedora rawhide | `2026.04.12` | ⚠️ outdated |
+| Nix unstable | `2026.05.21` | ✅ latest |
+| Void | `2026.05.21` | ✅ latest |
+| Alpine edge | `2026.05.21` | ✅ latest |
+| openSUSE Tumbleweed | `2026.05.21` | ✅ latest |
 
 ## 改进这些数据
 
@@ -81,4 +100,4 @@ kakoune 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261127.yml` · 2026-11-27T10:30:30Z._
+_数据快照: `data/card/261128.yml` · 2026-11-28T09:26:11Z._
